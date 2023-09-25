@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %></title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">home</a></li>
+          <li><a href="/add-product">Add product</a></li>
+        </ul>
+      </nav>
+      <div><%= title %></div>
+    </header>
+    <main>
+      <form action="/add-product-to-array" method="post">
+        <input name="title" />
+        <button type="submit">Done</button>
+      </form>
+    </main>
+  </body>
+</html>

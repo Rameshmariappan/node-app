@@ -1,0 +1,21 @@
+{
+  "name": "node-course",
+  "version": "1.0.0",
+  "description": "Node course",
+  "main": "mynew-app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon mynew-app.js"
+  },
+  "author": "Ram",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.1"
+  }
+}
